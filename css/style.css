@@ -59,7 +59,7 @@ a:focus {
 a:active {
     color: #8f3f0a;
     }
-.button {
+.button, .button:visited {
     display: inline-block;
     background-color: #8f837b;
     color: #ffffff;
