@@ -6,6 +6,9 @@ Secondary Color (Gray): #D6D6D6;
 img {
     width: 100%;
 }
+* {
+    box-sizing: border-box;
+}
 header {
     background-color: rgb(231, 226, 219);
     text-align: center;
