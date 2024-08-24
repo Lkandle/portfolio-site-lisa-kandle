@@ -6,6 +6,11 @@ Secondary Color (Gray): #D6D6D6;
 img {
     width: 100%;
 }
+svg {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 * {
     box-sizing: border-box;
 }
@@ -80,10 +85,11 @@ a:active {
     background-color: #8f837b;
     color: #ffffff;
     font-weight: 400;
+    text-decoration: none;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #8f837b;
-    transition: 0.2s opacity;
+    transition: 0.4s opacity;
 }
 .button:hover {
     opacity: 0.8;
@@ -137,4 +143,120 @@ nav {
     padding: 20px 0;
     display: inline-block;
     width: 100%;
+    text-align: center;
+}
+#hero span {
+    display: block;
+}
+/* Medium devices (640px and larger) */
+@media only screen and (min-width: 640px) {
+    header{
+        text-align: unset;
+        padding: 20px 0 13px
+    }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px;
+    }
+    body {
+        font-size: 18px;
+    }
+    .col-md-6 {
+        width: 50%
+    }
+}
+/*Larger devices (1024px or larger) */
+@media only screen and (min-width: 1024px) {
+    header {
+        text-align: unset;
+        padding: 15px;
+    }
+    nav {
+        width: auto;
+        float: right;
+        margin-top: 4px
+    }
+    body {
+        font-size: 18px
+    }
+    .col-lg-7 {
+        width: 60%
+    }
+    .col-lg-5 {
+        width: 40%
+    }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/*X-large devices (1440px or larger) */
+@media only screen and (min-width: 1440px) {
+
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@keyframes color-change {
+    0% {fill: #edc655;}
+    50% {fill: #fcffad;}
+    100% {fill: #f76414;} 
+}
+.sun {
+    animation-duration: 4s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes cloud-move {
+    from {transform: translate(0, 50px);}
+    to {transform: translate(200px, 50px);}
+}
+.cloud-1 {
+    animation-duration: 30s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+    from {transform: translate(100px, 0);}
+    to {transform: translate(50x, 0);}
+}
+.cloud-2 {
+    animation-duration: 15s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+}
+.cloud-3 {
+    animation-duration: 20s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+}
+.cloud-4 {
+    animation-duration: 30s;
+    animation-name: cloud-move-reverse;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
+}
+.cloud-5 {
+    animation-duration: 40s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: forward;
+    animation-timing-function: linear;
 }
