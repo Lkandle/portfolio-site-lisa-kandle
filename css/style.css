@@ -127,6 +127,8 @@ nav > ul> li {
     display: inline-block;
 }
 nav > ul > li > a {
+    position: relative;
+    z-index: 0;
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -264,14 +266,14 @@ nav {
     animation-timing-function: linear;
 }
 /* Circle behind */
-div.circleBehind a:before, div.circleBehind a:after
+.circleBehind a:before, .circleBehind a:after
 {
     position: absolute;
     top: 22px;
     left: 50%;
     width: 50px;
     height: 50px;
-    border: 4px solid #0277bd;
+    border: 4px solid #8e9ca3;
     transform: translateX(-50%) translateY(-50%) scale(0.8);
     border-radius: 50%;
     background: transparent;
@@ -281,19 +283,19 @@ div.circleBehind a:before, div.circleBehind a:after
     z-index: -1;
 }
 
-div.circleBehind a:after
+.circleBehind a:after
 {
     border-width: 2px;
     transition: all 0.4s;
 }
 
-div.circleBehind a:hover:before
+.circleBehind a:hover:before
 {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1);
 }
 
-div.circleBehind a:hover:after
+.circleBehind a:hover:after
 {
     opacity: 1;
     transform: translateX(-50%) translateY(-50%) scale(1.3);
