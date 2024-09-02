@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
+	<script src="https://kit.fontawesome.com/f014f9aa50.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Quando&family=Quattrocento:wght@400;700&display=swap"
@@ -19,14 +20,18 @@
 <body>
 	<header>
 		<div class="container">
-			<a href="index.html"><img src="img/logo/logo.png" alt="Logo" class="logo" /></a>
-			<nav>
-				<ul class="circleBehind">
-					<li><a href="index.html">Work</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="#conact">Contact</a></li>
-				</ul>
-			</nav>
+			<div class="navtoggle" id="myNavtoggle">
+				<a href="index.html"><img src="img/logo/logo.png" alt="Logo" class="logo" /></a>
+				<nav>
+					<ul class="circleBehind">
+						<li><a href="index.html" onclick="menuToggle()">Work</a></li>
+						<li><a href="about.html" onclick="menuToggle()">About</a></li>
+						<li><a href="#conact" onclick="menuToggle()">Contact</a></li>
+						<li><a href="javascript:void(0);" class="icon" onclick="menutoggle()"><i
+									class="fas fa-bars"></i></a> </li>
+					</ul>
+				</nav>
+			</div>
 		</div>
 	</header>
 	<main>
@@ -55,9 +60,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-6 col-lg-7">
-					<svg id="homepage-animation" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 750 500" style="enable-background:new 0 0 750 500;"
-						xml:space="preserve">
+					<svg id="homepage-animation" version="1.1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 750 500"
+						style="enable-background:new 0 0 750 500;" xml:space="preserve">
 						<g id="BACKGROUND">
 						</g>
 						<g id="OBJECTS">
@@ -1180,8 +1185,7 @@
 			</div>
 			<div>
 				<a href="https://www.linkedin.com/in/lisa-kandle" target="_blank">
-					<svg class="social-media-icon" viewBox="0 0 64 64"
-						xmlns="http://www.w3.org/2000/svg">
+					<svg class="social-media-icon" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
 						<defs>
 							<style>
 								.cls-1 {
@@ -1206,6 +1210,8 @@
 			<p>Copyright Lisa Kandle 2024</p>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
 </body>
 
