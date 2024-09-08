@@ -4,331 +4,346 @@ Primary Color (Black): #000000;
 Secondary Color (Gray): #D6D6D6;
 */
 img {
-    width: 100%;
+  width: 100%;
 }
 #homepage-animation {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 header {
-    background-color: rgb(231, 226, 219);
-    padding: 10px 0 4px;
-    position: relative; 
-    background: rgb(231, 226, 219); 
-    border: solid #BDBDBD 1px; 
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)  ; 
-    -webkit-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)  ; 
-    -moz-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)  ; 
+  background-color: rgb(231, 226, 219);
+  padding: 10px 0 4px;
+  position: relative;
+  background: rgb(231, 226, 219);
+  border: solid #bdbdbd 1px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
 }
-body{
-    background-color:rgb(231, 226, 219);
-    font-family: "Quattrocento", serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.6;
-    color: #222222;
+body {
+  background-color: rgb(231, 226, 219);
+  font-family: "Quattrocento", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #222222;
 }
-h1, h2, h3, h4{
-    line-height: 1.15;
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.15;
 }
 h1 {
-    font-size: 2.027em;
-    font-weight: 700;
+  font-size: 2.027em;
+  font-weight: 700;
 }
 h2 {
-    font-size: 1.802em;
-    font-weight: 700;
+  font-size: 1.802em;
+  font-weight: 700;
 }
 h3 {
-    font-size: 1.602em;
-    font-weight:700;
+  font-size: 1.602em;
+  font-weight: 700;
 }
 h4 {
-    font-size: 1.424em;
-    font-weight: 700;
+  font-size: 1.424em;
+  font-weight: 700;
 }
 h5 {
-    font-size: 1.266em;
-    font-weight: 700;
+  font-size: 1.266em;
+  font-weight: 700;
 }
 h6 {
-    font-size: 1.125em;
-    font-weight: 700;
+  font-size: 1.125em;
+  font-weight: 700;
 }
 a {
-    color: #8f3f0a;
-    text-decoration: none;
+  color: #8f3f0a;
+  text-decoration: none;
 }
 a:visited {
-    color:#397443;
-}   
+  color: #397443;
+}
 a:hover {
-    color:#cc6540;
-    text-decoration: underline;
+  color: #cc6540;
+  text-decoration: underline;
 }
 a:focus {
-    color:#cc6540;
-    text-decoration: underline;
+  color: #cc6540;
+  text-decoration: underline;
 }
 a:active {
-    color: #8f3f0a;
+  color: #8f3f0a;
 }
-.button, .button:visited {
-    display: inline-block;
-    background-color: #80746D;
-    color: #ffffff;
-    font-weight: 400;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #8f837b;
-    transition: 0.4s opacity;
+.button,
+.button:visited {
+  display: inline-block;
+  background-color: #80746d;
+  color: #ffffff;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #8f837b;
+  transition: 0.4s opacity;
 }
 .button:hover {
-    opacity: 0.8;
-    text-decoration: none;
+  opacity: 0.8;
+  text-decoration: none;
 }
 .button:active {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 .button.contact {
-    background-color: transparent;
-    color: #8f837b;
-    text-transform: uppercase;
-    border: 2px solid #8f837b;
+  background-color: transparent;
+  color: #8f837b;
+  text-transform: uppercase;
+  border: 2px solid #8f837b;
 }
 .button.contact.hover {
-    background-color: #8f837b;
-    color: #ffffff;
+  background-color: #8f837b;
+  color: #ffffff;
 }
 /* Layout styling */
 .container {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 .row {
-    margin: 25px 0;
+  margin: 25px 0;
 }
 #hero h1 {
-    text-align: center;
+  text-align: center;
 }
 .logo {
-    max-width: 150px;
+  max-width: 150px;
 }
 nav > ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 nav > ul > li > a {
-    position: relative;
-    z-index: 0;
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #4a4a4a;
+  position: relative;
+  z-index: 0;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
 }
 .navtoggle li:not(:last-child) {
-    display: none;
+  display: none;
 }
-.navtoggle, .navtoggle.responsive {
-    position: relaitve;
+.navtoggle,
+.navtoggle.responsive {
+  position: relaitve;
 }
 .navtoggle li .icon {
-    position: absolute;
-    right: 10px;
-    top: 38px;
-    font-size: 20px;
-    padding-right: 10px;
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  font-size: 20px;
+  padding-right: 10px;
 }
 .navtoggle.responsive li {
-    display: block;
-    padding: 10px 0;
-    border-top: 1px solid rgba(255,127,80,0.5);
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 .navtoggle.responsive nav {
-    padding: 24px 0 0;
+  padding: 24px 0 0;
 }
 .navtoggle.responsive li:last-child {
-    padding: 0 0 10px;
+  padding: 0 0 10px;
 }
 #hero {
-    background-color: rgb(231, 226, 219);
-    padding: 20px 0;
-    display: inline-block;
-    width: 100%;
-    text-align: center;
+  background-color: rgb(231, 226, 219);
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 #hero span {
-    display: block;
+  display: block;
 }
 .social-media-icon {
-    height: 75px;
-    width: 75px;
-    padding: 10px;
+  height: 75px;
+  width: 75px;
+  padding: 10px;
 }
 /* Medium devices (640px and larger) */
 @media only screen and (min-width: 640px) {
-    header{
-        text-align: unset;
-        padding: 20px 0 13px
-    }
-    nav {
-        width: auto;
-        float: right;
-        margin-top: 4px;
-    }
-    nav > ul {
-        margin: 1em 0;
-    }
-    nav > ul> li {
-        display: inline-block;
-    }
-    body {
-        font-size: 18px;
-    }
-    .col-md-6 {
-        width: 50%
-    }
-    [class*="col-"] {
-        float: left;
-        padding: 10px;
-    }
-    .logo {
-        max-width: 100px;
-    }
-    .navtoggle li:not(:last-child) {
-        display: inline-block;
-    }
-    .navtoggle li:last-child {
-        display: none;
-    }
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  nav > ul {
+    margin: 1em 0;
+  }
+  nav > ul > li {
+    display: inline-block;
+  }
+  body {
+    font-size: 18px;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  [class*="col-"] {
+    float: left;
+    padding: 10px;
+  }
+  .logo {
+    max-width: 100px;
+  }
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 /*Larger devices (1024px or larger) */
 @media only screen and (min-width: 1024px) {
-    header {
-        text-align: unset;
-        padding: 15px;
-    }
-    nav {
-        width: auto;
-        float: right;
-        margin-top: 4px
-    }
-    body {
-        font-size: 18px
-    }
-    .col-lg-7 {
-        width: 60%
-    }
-    .col-lg-5 {
-        width: 40%
-    }
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  header {
+    text-align: unset;
+    padding: 15px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  body {
+    font-size: 18px;
+  }
+  .col-lg-7 {
+    width: 60%;
+  }
+  .col-lg-5 {
+    width: 40%;
+  }
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 /*X-large devices (1440px or larger) */
 @media only screen and (min-width: 1440px) {
-
 }
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 @keyframes color-change {
-    0% {fill: #edc655;}
-    50% {fill: #fcffad;}
-    100% {fill: #f76414;} 
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #f76414;
+  }
 }
 .sun {
-    animation-duration: 4s;
-    animation-name: color-change;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
 }
 @keyframes cloud-move {
-    from {transform: translate(0, 50px);}
-    to {transform: translate(200px, 50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 .cloud-1 {
-    animation-duration: 30s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: forward;
-    animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: linear;
 }
 @keyframes cloud-move-reverse {
-    from {transform: translate(100px, 0);}
-    to {transform: translate(50x, 0);}
+  from {
+    transform: translate(100px, 0);
+  }
+  to {
+    transform: translate(50x, 0);
+  }
 }
 .cloud-2 {
-    animation-duration: 15s;
-    animation-name: cloud-move-reverse;
-    animation-iteration-count: infinite;
-    animation-direction: forward;
-    animation-timing-function: linear;
+  animation-duration: 15s;
+  animation-name: cloud-move-reverse;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: linear;
 }
 .cloud-3 {
-    animation-duration: 20s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: forward;
-    animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: linear;
 }
 .cloud-4 {
-    animation-duration: 30s;
-    animation-name: cloud-move-reverse;
-    animation-iteration-count: infinite;
-    animation-direction: forward;
-    animation-timing-function: linear;
+  animation-duration: 30s;
+  animation-name: cloud-move-reverse;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: linear;
 }
 .cloud-5 {
-    animation-duration: 40s;
-    animation-name: cloud-move;
-    animation-iteration-count: infinite;
-    animation-direction: forward;
-    animation-timing-function: linear;
+  animation-duration: 40s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  animation-timing-function: linear;
 }
 /* Circle behind */
-.circleBehind a:before, .circleBehind a:after
-{
-    position: absolute;
-    top: 22px;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    border: 4px solid #8e9ca3;
-    transform: translateX(-50%) translateY(-50%) scale(0.8);
-    border-radius: 50%;
-    background: transparent;
-    content: "";
-    opacity: 0;
-    transition: all 0.3s;
-    z-index: -1;
+.circleBehind a:before,
+.circleBehind a:after {
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  border: 4px solid #8e9ca3;
+  transform: translateX(-50%) translateY(-50%) scale(0.8);
+  border-radius: 50%;
+  background: transparent;
+  content: "";
+  opacity: 0;
+  transition: all 0.3s;
+  z-index: -1;
 }
 
-.circleBehind a:after
-{
-    border-width: 2px;
-    transition: all 0.4s;
+.circleBehind a:after {
+  border-width: 2px;
+  transition: all 0.4s;
 }
 
-.circleBehind a:hover:before
-{
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%) scale(1);
+.circleBehind a:hover:before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1);
 }
 
-.circleBehind a:hover:after
-{
-    opacity: 1;
-    transform: translateX(-50%) translateY(-50%) scale(1.3);
+.circleBehind a:hover:after {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-50%) scale(1.3);
 }
